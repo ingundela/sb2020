@@ -1,0 +1,1337 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800|Poppins:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	color: #253746;
+	font-weight: 300;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiase;
+}
+
+.wild {
+	width: 90%;
+	max-width: 1310px;
+	margin: 0 auto;
+}
+
+p,
+li {
+	font-size: 1rem;
+	display: block;
+	line-height: 1.7;
+	margin-bottom: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	s: auto;
+	text-align: center;
+}
+
+a {
+	color: #253746;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #253746;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Poppins', sans-serif;
+}
+
+/*-- TOP MENU ROW --*/
+.top-menu {
+	padding: 10px 0;
+	background: rgba(239, 246, 242, .7);
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.log_in_register i {
+	color: #007942;
+	margin-right: 3px;
+}
+
+.log_in_register .span_move_right {
+	margin-right: 15px;
+}
+
+.contacts_email_cell {
+	display: inline-block;
+	font-size: 0.9rem;
+	font-weight: 400;
+	text-align: inherit;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: #fff;
+	padding: 12px 0px;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+}
+
+.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.navbar img {
+	width: 200px;
+	display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	border-bottom: 1px solid transparent;
+	display: block;
+	padding: 0;
+	font-weight: 600;
+	font-size: 0.8rem;
+	margin-left: 20px;
+	color: #253746;
+}
+
+.nav_arrow_down {
+	text-align: center;
+	font-size: 0.2rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #007942;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.active2 {
+	color: #007942;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #007942;
+}
+
+.req_quote:hover {
+	color: #fff !important;
+	background-color: rgb(16, 199, 120, 0.7);
+}
+
+.nav-item i {
+	font-weight: 600;
+}
+
+/*--humberuger menu---*/
+
+
+.navbar-light .navbar-toggler {
+	color: #253746;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+/*---dropdown menu---*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: #f2f2f2;
+	text-transform: uppercase;
+	min-width: 247px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	padding: 12px 16px;
+	border-bottom: 1px solid #d6d6d6;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	display: block;
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.dropdown-content a:hover {
+	color: #007942;
+	background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content .serv-menu-img {
+	width: 20px;
+	margin-right: 15px;
+}
+
+/*-----hero image---*/
+#hero {
+	background: linear-gradient(rgba(54, 92, 73, .9), rgba(38, 64, 51, .8)), url('../img/assets/sb-hero-final2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 815px;
+	z-index: 1;
+}
+
+.hero-caption_one {
+	margin-top: 15%;
+}
+
+.hero-caption_one .digital-title {
+	font-weight: 600;
+	color: #fff;
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.today {
+	border-bottom: 1px solid #fff;
+}
+
+.do_once {
+	color: #ffe52c;
+	font-size: 2.2rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.serv-p {
+	color: #f2f2f2;
+	font-size: 1rem;
+	font-weight: 500;
+	margin: 20px 0 20px 0;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 2px;
+}
+
+.btn {
+	font-size: 0.85rem;
+	transition: 0.3s ease-in-out;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	padding: 12px 34px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	border: none;
+}
+
+.contact-btn {
+	color: #fff;
+	background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.contact-btn:hover,
+.call_btn:hover {
+	color: #fff;
+	background-image: linear-gradient(-30deg, #ff5858 0%, #f09819 -60%);
+	transition: all 0.3s;
+}
+
+.float {
+	background: url(../img/assets/trans.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.wrap_values {
+	border-top: 2px solid #fff;
+	padding: 30px 0;
+	color: #fff;
+	line-height: 24px;
+}
+
+.float img {
+	width: 60px;
+	margin-bottom: 15px;
+}
+
+/*----Approach----*/
+
+.bold_title {
+	font-weight: 600;
+}
+
+.approach {
+	padding-left: 10rem !important;
+}
+
+.approach_content {
+	padding-right: 50px !important;
+}
+
+/*----services-----*/
+
+.section-space {
+	padding: 50px 0;
+}
+
+.short_title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.75rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	padding-bottom: 5px;
+	display: block;
+}
+
+.section_title {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 2rem;
+	letter-spacing: -0.02em;
+}
+
+.service_content {
+	margin: 40px 0;
+}
+
+.service_content img {
+	width: 85px;
+}
+
+.service_content h4 {
+	margin-top: 20px;
+}
+
+.box {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 20px;
+	transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+	background: rgba(239, 246, 242, .7);
+	-webkit-box-shadow: -1px 6px 20px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 6px 20px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 6px 20px -1px rgba(0, 0, 0, 0.75);
+}
+
+.box:hover h4 {
+	color: #007942;
+}
+
+.box a>.serv_p {
+	color: #007942;
+	text-transform: capitalize;
+}
+
+.box a>h4:hover {
+	color: #365c49;
+}
+
+/*--Digital marketing hero section--*/
+.digital_marketing_hero_home {
+	background: url('../img/assets/digi2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+
+.digital_hero_home_right {
+	background: rgba(239, 246, 242, .7);
+	width: 100%;
+	height: 700px;
+	padding-left: 50px;
+	padding-top: 55px;
+}
+
+.digital_home_sect_content {
+	margin-top: 30px;
+}
+
+.digital_home_sect_content h4,
+.service_content h4 {
+	font-weight: 600;
+	font-size: 1.4rem;
+	text-transform: capitalize;
+}
+
+.digital_home_sect_content p {
+	padding-right: 70px;
+}
+
+.btn.digial_btn {
+	color: #007942;
+	padding-left: 0 !important;
+	font-size: 0.78rem;
+}
+
+.digital_home_img {
+	margin-bottom: 20px;
+	width: 50px;
+}
+
+/*--free--*/
+
+.buy_templete {
+	font-size: 2rem;
+	font-weight: 600 !important;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 2rem;
+	letter-spacing: -0.02em;
+}
+
+.fre_hosting p {
+	line-height: 2;
+	font-weight: 300;
+	font-size: 1.5rem;
+	max-width: 82%;
+	margin: 0 auto;
+}
+
+.free {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/*--call to action--*/
+.call_action {
+	background: #365c49;
+	color: #fff;
+}
+
+.call_action .call_us_now,
+.call_action .number_to_call {
+	color: #fff;
+}
+
+.sb_h4 {
+	font-weight: 600;
+}
+
+/*--work--*/
+.work {
+	padding: 40px 0;
+}
+
+.work_photo {
+	margin-top: 30px;
+}
+
+.post img {
+	width: 410px;
+	height: 250px;
+}
+
+.fit-image {
+	width: 100%;
+	object-fit: cover;
+	height: 250px;
+	/* only if you want fixed height */
+}
+
+.post {
+	width: 410px;
+	height: 250px;
+	position: relative;
+}
+
+.post-s {
+	height: 250px;
+	width: 0px;
+	background: rgba(29, 48, 38, .9);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7s ease;
+}
+
+.post:hover .post-s {
+	width: 410px;
+}
+
+.post-s h3 {
+	background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 1.2rem;
+	border: 4px solid #fff;
+}
+
+/*---sb why footer---*/
+.sb_why_footer_content {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.clock_hero {
+	margin-top: 58px;
+}
+
+.sb_p {
+	line-height: 2;
+	font-size: 1.2rem;
+	padding-bottom: 15px;
+}
+
+/*--how--*/
+
+.how_h4 {
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+
+/*--Blog--*/
+
+.blog {
+	background: rgba(239, 246, 242, .7);
+}
+
+.blog_content {
+	margin-top: 30px;
+}
+
+.blog_box {
+	-webkit-box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+	box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+}
+
+.blog_cont_below {
+	padding: 30px 20px;
+	text-align: left;
+}
+
+.blog_spec_page {
+	font-size: 0.75rem;
+	padding: 5px 10px;
+	letter-spacing: 0;
+	text-transform: capitalize;
+}
+
+.blog_cont_below h5 {
+	font-weight: 500;
+	font-size: 1.1rem;
+	margin-top: 25px;
+}
+
+.litle_content {
+	font-size: 0.9rem;
+	display: block;
+	padding: 10px 0;
+}
+
+.blog_read_more {
+	font-size: 0.9rem;
+	color: #007942;
+	font-weight: 500;
+	text-transform: capitalize;
+	float: right;
+}
+
+.blog_read_more .fas {
+	font-size: 0.7rem;
+}
+
+.blog_date {
+	font-size: 0.9rem;
+}
+
+/*----footer----*/
+.footer {
+	background: #365c49;
+	color: #fff;
+}
+
+.media .mr-3 {
+	width: 45px;
+}
+
+/*====signe up form====*/
+
+#mailchimp input {
+	border: medium none;
+	color: gray;
+	font-size: 14px;
+	border: 1px solid #dfdfdf;
+	margin-bottom: 10px;
+	padding: 8px 10px;
+	width: 35%;
+	border-radius: 4px;
+	-moz-border-radius: 4x;
+	-webkit-border-radius: 4px;
+}
+
+#mailchimp input[type="submit"] {
+	cursor: pointer;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 0.8rem;
+	width: 20%;
+	color: #fff;
+	padding: 10px 30px;
+}
+
+#mailchimp input[type="submit"]:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.twenty_off {
+	color: #ffe52c;
+}
+
+.thank_perc_off {
+	font-weight: 700;
+}
+
+.sub_promotions {
+	font-weight: 600;
+}
+
+.blog.section-space {
+	padding-bottom: 65px;
+}
+
+.footer_h5 {
+	font-weight: 500;
+	display: block;
+}
+
+.footer_last {
+	background: linear-gradient(rgba(29, 48, 38, .9), rgba(29, 48, 38, .9)), url('../img/assets/footer_img.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+	color: #fff;
+}
+
+.footer_last .footer_title {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	margin: 20px 0;
+}
+
+.footer_last .list_serv li {
+	line-height: 2.3;
+	text-transform: capitalize;
+}
+
+.footer_last .list_serv li a {
+	color: #fff;
+}
+
+.list_serv i {
+	padding-right: 10px;
+}
+
+.social_media li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social_media img {
+	width: 30px;
+}
+
+.copyright {
+	position: relative;
+}
+
+/*================================================ABOUT US PAGE===============================================*/
+
+.digital_p {
+	font-style: italic;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+	padding-top: 30px;
+}
+
+.about_us_hero p {
+	font-weight: 600;
+}
+
+.txt-type>.txt {
+	border-right: 0.1rem solid #007942;
+	color: #007942;
+}
+
+.do_once_about {
+	color: #007942;
+	font-size: 1rem;
+	font-weight: 600;
+	display: block;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+.about_content {
+	background: rgba(239, 246, 242, .7);
+}
+
+.about_content h2,
+.founder h2 {
+	margin-bottom: 20px;
+}
+
+.founder_img .mr-3 {
+	width: 100px;
+}
+
+.about_p,
+.founder_p {
+	text-align: justify;
+}
+
+.founder_name {
+	text-transform: uppercase;
+	padding-top: 20px !important;
+}
+
+/*------VISION-MISSION-VALUES--------*/
+.vision_mission_content {
+	background: #365c49;
+	height: 600px;
+	color: #ffff;
+}
+
+.values_content {
+	background: #253746;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+
+.vision_mission_content,
+.values_content {
+	padding: 50px 50px;
+	white-space: normal;
+}
+
+.img_vision {
+	align-items: center;
+}
+
+.vision_mission_container {
+	margin-top: 60px;
+}
+
+.about_icon {
+	font-size: 1.4rem;
+	background: #427059;
+	padding: 15px 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.img_vision h4 {
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.values_container {
+	margin-top: 20px;
+	color: #fff;
+}
+
+.value_title {
+	background-color: #fff;
+	color: #007942;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.values_content .section_title,
+.values_content .short_title {
+	color: #fff;
+}
+
+.values_container p {
+	padding: 20px 0;
+}
+
+.about_why_content {
+	margin-top: 30px;
+}
+
+.why_us_content .media i {
+	font-size: 30px;
+}
+
+.why_right_content h4,
+.why_right_content h5 {
+	font-weight: 600;
+}
+
+.about_svg {
+	width: 400px;
+}
+
+.goal {
+	color: #007942;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.need_agency {
+	background: rgba(239, 246, 242, .7);
+}
+
+.need_agency .contact-btn {
+	margin-top: 30px;
+}
+
+/*==================================== WEB DESIGN ADN DEVELOPMENT SERVICES PAGE =========================================*/
+.des_dev_hero {
+	background-image: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 450px;
+	z-index: 1;
+}
+
+.des_dev_hero .digital-title {
+	color: #253746;
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 1.1;
+	letter-spacing: -.02em;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+
+.des_dev_hero h5 {
+	font-weight: 600;
+}
+
+.serv_des_img img {
+	width: 450px;
+}
+
+/*---call serv action --*/
+.call_serv_action {
+	background: rgba(239, 246, 242, .7);
+}
+
+.call_act_box {
+	-webkit-box-shadow: 2px -7px 30px -9px rgba(0, 0, 0, 0.65);
+	-moz-box-shadow: 2px -7px 30px -9px rgba(0, 0, 0, 0.65);
+	box-shadow: 2px -7px 30px -9px rgba(0, 0, 0, 0.65);
+	padding: 20px;
+}
+
+.call_img img {
+	width: 90px;
+}
+
+.call_act_box {}
+
+/*---PACKAGES---*/
+
+.packages_content {
+	margin-top: 30px;
+}
+
+.top_serv_content p {
+	text-align: justify;
+}
+
+.img_pack {
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+.desc_title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 1px;
+}
+
+.box_packages {
+	padding: 30px;
+	-webkit-box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+	box-shadow: 2px 4px 17px -1px rgba(0, 0, 0, 1);
+}
+
+.box_packages li {
+	padding: 7px 0;
+}
+
+.dark_color {
+	font-weight: bold;
+}
+
+.web_price {
+	font-size: 1.7rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	background: rgba(239, 246, 242, .7);
+}
+
+.per_month {
+	display: block;
+	font-size: 1rem;
+}
+
+/*--web impact--*/
+
+.web_impact_content {
+	margin-top: 30px;
+}
+
+.web_impact_box {
+	border: 1px solid #e6e6e6;
+	margin: 16px;
+	padding: 20px;
+}
+
+.web_impact_box h5 {
+	text-transform: capitalize;
+}
+
+/*---Call us today---*/
+
+.call_us_today {
+	background-color: #365c49;
+	padding: 30px;
+}
+
+.old_phone {
+	display: inline;
+	width: 100px;
+}
+
+.call_us_now,
+.number_to_call {
+	display: block;
+	color: #fff;
+}
+
+.call_us_today .short_title {
+	font-style: italic;
+}
+
+.call_us_today .contact-btn {
+	text-align: center;
+	margin-top: 0 !important;
+	padding: 10px 20px;
+}
+
+.number_to_call {
+	font-size: 1.2rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+.call_us_now {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2rem;
+}
+
+.call_us_today .short_title,
+.call_us_today .section_title {
+	color: #fff;
+}
+
+.call_us_today .btn {
+	margin-top: 0;
+}
+
+.call_us_today_content {
+	color: #fff;
+	font-weight: 600;
+}
+
+.call_number_bold {
+	color: #ffe52c;
+	font-weight: 600;
+}
+
+.media i {
+	font-size: 2.5rem;
+	margin-right: 20px;
+	color: #007942;
+}
+
+.media-body.mt-0 {
+	font-size: 600;
+}
+
+.note_once_content {
+	background: rgba(222, 237, 229, .9);
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.once_off {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.note_once_content a {
+	border-bottom: 1px solid #253746;
+}
+
+/*----FAQ---*/
+
+#faq_section {
+	background: rgba(239, 246, 242, .7);
+}
+
+.faq {
+	margin: 30px 0;
+}
+
+.btn-link {
+	font-weight: 600;
+	color: #253746;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.btn-link:hover {
+	color: #253746;
+}
+
+.btn-link i {
+	font-size: 15px;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background: rgba(239, 246, 242, .7);
+	border-bottom: 1px solid rgba(222, 237, 229, .4);
+}
+
+.card {
+	background: rgba(230, 255, 244, .7);
+	border: 1px solid rgba(0, 51, 29, .4);
+}
+
+.card-body {
+	background: #fff;
+}
+
+/*=================================================DIGITAL MARKETING==============================================*/
+
+.starting_from {
+	color: #007942;
+	font-weight: 400;
+}
+
+.email_marketing {
+	background: linear-gradient(rgba(29, 48, 38, .9), rgba(29, 48, 38, .9)), url('../img/assets/dev_sb.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 882px;
+	z-index: 1;
+	color: #fff;
+}
+
+.email_marketing .section_title {
+	color: #ffe52c;
+}
+
+.email_benefits_content {
+	margin-top: 40px;
+}
+
+.email_n {
+	color: #ffe52c;
+	font-size: 4rem;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+.email_h3 {
+	margin: 20px 0;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+/*--seo--*/
+.seo_important {
+	background: rgba(239, 246, 242, .7);
+}
+
+.seo_important p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.seo_bold {
+	font-weight: 600;
+}
+
+.sb_seo_bold {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.seo_benefits {
+	margin-top: 40px;
+}
+
+.seo_h5 {
+	font-weight: 600;
+}
+
+/*=============================================================WEB HOSTING===============================================*/
+
+.web_hosting_pt {
+	padding-top: 100px;
+}
+
+/*=================================================================PROFESSIONAL EMAIL======================================*/
+
+.email_bold {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/*=============================================================MAINTENANCE TOP=============================================*/
+
+.clear-fix_maintenance {
+	margin-top: 40px;
+	position: relative;
+}
+
+/*===================================================CONTACT PAGE=======================================================*/
+
+.contact_hero {
+	background: url('../img/assets/contact_hero.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+}
+
+/*===============================MEDIA QUIRES================================*/
+
+@media (min-width: 320px) and (max-width: 750px) {
+	.top-menu {
+		display: none;
+	}
+
+	.navbar img {
+		width: 150px;
+	}
+
+	.float {
+		display: none;
+	}
+
+	.do_once {
+		font-size: 1.5rem;
+	}
+
+	.hero-caption_one .digital-title {
+		font-size: 2.2rem;
+	}
+
+	.serv-p {
+		font-size: 0.7rem;
+	}
+
+	.btn {
+		width: 100%;
+		font-size: 0.7rem;
+		padding: 14px 20px;
+	}
+
+	.hero-caption_one {
+		margin-top: 12%;
+	}
+
+	#hero {
+		background: linear-gradient(rgba(54, 92, 73, .9), rgba(38, 64, 51, .8)), url('../img/assets/sb-hero-final-mobile.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		position: relative;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+	}
+
+	.section-space {
+		padding: 20px 0;
+	}
+
+	.approach {
+		padding-left: 0px !important;
+	}
+
+	.approch_img img {
+		padding-bottom: 30px;
+	}
+
+	.approach_content {
+		padding: 0 0px 0 0px !important;
+	}
+
+	.pl-5,
+	.px-5 {
+		padding-left: 1rem !important;
+	}
+
+	.section_title {
+		font-size: 1.7rem;
+	}
+
+	.short_title {
+		font-size: 0.6rem;
+	}
+
+	.service_content {
+		margin: 10px 0;
+	}
+
+	.service_content h4 {
+		font-size: 1.3rem;
+	}
+
+	.box {
+		padding: 0px;
+		margin-top: 40px;
+	}
+
+	/*--Digital marketing hero section--*/
+	.digital_marketing_hero_home {
+		background: url('../img/assets/digi2.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 300px;
+	}
+
+	.digital_hero_home_right {
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.digital_hero_home_right {
+		background: rgba(239, 246, 242, .7);
+		width: 100%;
+		height: 700px;
+		padding-left: 50px;
+		padding-top: 30px;
+	}
+
+	.digital_home_sect_content p {
+		padding-right: 22px;
+		padding-left: 0px;
+	}
+
+	.btn.digial_btn {
+		padding-right: 220px !important;
+	}
+
+	.mobile_space {
+		margin-bottom: 20px;
+	}
+
+	.fre_hosting {
+		display: none;
+	}
+
+
+}
